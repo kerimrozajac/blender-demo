@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "blender": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["--python", "3.11", "mcp-for-blender"],
+      "env": { "UV_PYTHON_PREFERENCE": "only-managed" }
+    }
+  }
+}
